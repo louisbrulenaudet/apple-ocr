@@ -29,7 +29,7 @@ Here's how you can use `apple_ocr`:
 
 2. **Initialization**: Create an instance of the `OCR` class, providing an image to be processed.
 ```python
-from apple_ocr import OCR
+from apple_ocr.ocr import OCR
 from PIL import Image
 
 image = Image.open("your_image.png")
@@ -55,7 +55,7 @@ ocr_instance.scatter()
 Here's an example of the entire process:
 
 ```python
-from apple_ocr import OCR
+from apple_ocr.ocr import OCR
 from PIL import Image
 
 image = Image open("your_image.png")
