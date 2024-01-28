@@ -166,7 +166,7 @@ class OCR:
         None
             This function does not return any value; it displays the plot interactively.
         """
-        self.cluster(dataframe=self.dataframe)
+        instance.cluster(dataframe=self.dataframe)
 
         fig = go.Figure(data=[go.Scatter3d(
             x=self.dataframe["x"],

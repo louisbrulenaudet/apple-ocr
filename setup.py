@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="apple-ocr",
-    version="1.0.0",
+    version="1.0.3",
     license="Apache License 2.0",
     author="Louis Brulé Naudet",
     author_email="louisbrulenaudet@icloud.com",
@@ -25,8 +25,9 @@ setup(
         "Topic :: Software Development :: Libraries",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    packages=find_packages(where="apple_ocr"),
+    py_modules=["apple_ocr"],
+    package_dir={"": "apple_ocr"},
     install_requires=[
         "torch",
         "numpy",
