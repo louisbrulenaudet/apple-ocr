@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="apple-ocr",
-    version="1.0.4",
+    version="1.0.5",
     license="Apache License 2.0",
     author="Louis Brulé Naudet",
     author_email="louisbrulenaudet@icloud.com",
@@ -11,7 +11,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/louisbrulenaudet/apple-ocr",
     homepage="https://github.com/louisbrulenaudet/apple-ocr",
-    download_url="https://github.com/louisbrulenaudet/apple-ocr/archive/refs/tags/1.0.4.tar.gz",
+    download_url="https://github.com/louisbrulenaudet/apple-ocr/archive/refs/tags/1.0.5.tar.gz",
     project_urls={"repository": "https://github.com/louisbrulenaudet/apple-ocr"},
     keywords="OCR, image-recognition, text-extraction, clustering, Apple Vision, NLP, LLM, data",
     classifiers=[

@@ -4,4 +4,4 @@
 # For example, you might define a variable like this:
 # version = "1.0.0"
 
-from apple_ocr.ocr.py import OCR
+from ocr.py import OCR
