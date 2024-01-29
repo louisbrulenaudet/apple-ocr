@@ -38,7 +38,7 @@ ocr_instance = OCR(image=image)
 
 3. **Text Recognition**: Use the `recognize` method to perform text recognition. It will return a structured DataFrame containing recognized text, bounding box dimensions, text density, and centroid coordinates.
 ```python
-dataframe = ocr_instance.recognize()`
+dataframe = ocr_instance.recognize()
 ```
 
 4. **Clustering**: Use the `cluster` method to perform K-Means clustering on the recognized text data. This method assigns cluster labels to each data point based on their coordinates.
