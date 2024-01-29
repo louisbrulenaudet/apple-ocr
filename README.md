@@ -58,7 +58,7 @@ Here's an example of the entire process:
 from apple_ocr.ocr import OCR
 from PIL import Image
 
-image = Image open("your_image.png")
+image = Image.open("your_image.png")
 ocr_instance = OCR(image=image)
 dataframe = ocr_instance.recognize()
 cluster_labels = ocr_instance.cluster(dataframe, num_clusters=3)
